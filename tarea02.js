@@ -21,7 +21,6 @@ addButton.addEventListener('click', e => {
 
 })
 
-
 const createListItem = (text) => {
     const newListItem = document.createElement('li')
     newListItem.innerHTML = text + '<button type="button">Borrar</button>'
